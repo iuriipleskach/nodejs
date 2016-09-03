@@ -7,8 +7,6 @@ var path = require('path');
 var fs = require('fs');
 var sqlite3 = require("sqlite3").verbose();
 
-// TODO: refactor method, read about callback functions definitions
-// TODO: commit to github
 class DatabaseReader {
 
 	constructor(databaseName) {
